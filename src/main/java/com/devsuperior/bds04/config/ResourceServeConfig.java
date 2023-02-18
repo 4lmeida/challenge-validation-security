@@ -26,8 +26,6 @@ public class ResourceServeConfig extends ResourceServerConfigurerAdapter {
 
     private  static final String[] CLIENT  = { "/events/**" };
 
-
-
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
         resources.tokenStore(tokenStore);

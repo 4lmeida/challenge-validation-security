@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import javax.validation.Valid;
 import java.net.URI;
 import java.util.List;
 
@@ -18,7 +19,7 @@ public class CityController {
     private CityService  service;
 
     @PostMapping
-    public ResponseEntity<CityDTO>  insert(@RequestBody CityDTO dto) {
+    public ResponseEntity<CityDTO>  insert(@Valid @RequestBody CityDTO dto) {
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
                 .buildAndExpand(dto.getId()).toUri();
         dto = service.insert(dto);
