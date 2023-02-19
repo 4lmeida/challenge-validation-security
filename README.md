@@ -24,9 +24,9 @@ O Validation security é uma extensão do projeto TDD de CRUD, porém com enfoqu
 de tudo que foi aprendido até o momento na escola [DevSuperior](https://devsuperior.com.br/cursos), sendo assim é um dos desafios para avançar no curso.
 
 <p>
-O projeto é um sistema de eventos e cidades com uma relação N-1, que também tem um domínio de usuários e seus papeis para autenticar e autorizar permissão de acesso aos 
+O projeto é um sistema de eventos e cidades com uma relação N-1, que também tem um domínio de usuários e seus papeis para autenticar e autorizar permissões de acesso aos 
 recursos da aplicação. 
-O foco principal da aplicação é autenticar e autorizar alguns recursos conforme o papel do usuário e também validar as informações passadas pelo mesmo usuário caso ela seja invalida.
+O foco principal da aplicação é autenticar e autorizar alguns recursos conforme o papel do usuário e também validar as informações passadas pelo mesmo usuário caso elas sejam invalidas.
 </p>
 
 ## Funcionalidades
