@@ -73,10 +73,10 @@ Pré-requisitos: Java 17
 
 ```bash
 # clonar repositório
-https://github.com/4lmeida/challenge-TDD-eventy-city.git
+https://github.com/4lmeida/challenge-validation-security.git
 
-# entrar na pasta do projeto challenge-TDD-eventy-city
-cd challenge-TDD-eventy-city
+# entrar na pasta do projeto challenge-validation-security
+cd challenge-validation-security
 
 # executar o projeto
 ./mvnw spring-boot:run
@@ -88,6 +88,6 @@ cd challenge-TDD-eventy-city
 
 ## Licença 
 
-The [MIT License]()(MIT)
+The [MIT License](https://github.com/4lmeida/challenge-validation-security/blob/main/License)(MIT)
 
 Copyright :copyright: 2023 - Validation Security
