@@ -41,7 +41,7 @@ O foco principal da aplicação é autenticar e autorizar alguns recursos confor
 
 :heavy_check_mark: Validação. 
 
-# Layout:mag_right:
+# Layout :mag_right:
 
 - Endpoints:
 
