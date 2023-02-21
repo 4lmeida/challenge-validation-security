@@ -45,14 +45,18 @@ O foco principal da aplicação é autenticar e autorizar alguns recursos confor
 
 - Endpoints:
 
-![]()
+![](https://github.com/4lmeida/challenge-validation-security/blob/main/src/assets/challenge-validation-security-endpoints.gif)
+
+- Validações:
+
+![](https://github.com/4lmeida/challenge-validation-security/blob/main/src/assets/challenge-validation-security-validation.gif)
 
 - Testes:
 
-![]()
+![](https://github.com/4lmeida/challenge-validation-security/blob/main/src/assets/challenge-validation-security-tests.gif)
 
 # Modelo conceitual :page_with_curl:
-![Modelo Conceitual]()
+![Modelo Conceitual](https://github.com/4lmeida/challenge-validation-security/blob/main/src/assets/domain-model-validation-security.png)
 
 ## Linguagens, dependencias e libs utilizadas :books:
 - [JAVA](https://www.java.com/pt-BR/)
