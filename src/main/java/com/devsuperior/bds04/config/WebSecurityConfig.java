@@ -18,8 +18,6 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Value("${jwt.secret}")
-    private String jwtSecret;
 
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
@@ -43,15 +41,5 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         web.ignoring().antMatchers("/actuator/**");
     }
 
-    @Bean
-    public JwtAccessTokenConverter accessTokenConverter() {
-        JwtAccessTokenConverter tokenConverter = new JwtAccessTokenConverter();
-        tokenConverter.setSigningKey(jwtSecret);
-        return tokenConverter;
-    }
 
-    @Bean
-    public JwtTokenStore tokenStore() {
-        return new JwtTokenStore(accessTokenConverter());
-    }
 }
