@@ -88,10 +88,12 @@ cd challenge-validation-security
 # executar o projeto
 ./mvnw spring-boot:run
 ```
-# Autor
+# Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/93017964?v=4" width=115><br><sub>Luís Almeida</sub>](https://github.com/4lmeida) |
-| :---: |
+| [<img src="https://avatars.githubusercontent.com/u/93017964?v=4" width=115><br><sub>Luís Almeida</sub>](https://github.com/4lmeida) | [<img src="https://avatars.githubusercontent.com/u/13897257?v=4" width=115><br><sub>Nélio Alves</sub>](https://github.com/acenelio) |
+| :---: | :---:
+  
+
 
 ## Licença 
 
